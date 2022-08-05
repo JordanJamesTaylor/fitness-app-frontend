@@ -1,0 +1,45 @@
+#workout-video{
+    position: fixed;
+    z-index: -100;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+
+#login-page-container{
+    display: flex;
+    flex-direction: column;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+#login-sub-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50vh;
+}
+
+#logo{
+    margin-bottom: 25px;
+}
+
+#login-text-area{
+    width: 370px;
+    height: 30px;
+}
+
+#login-btn{
+    border: none;
+    margin-top: 10px;
+    width: 378px;
+    height: 80px;
+    color: #D3F501;
+    background-color: black;
+    cursor: pointer;
+    font-style: normal;
+    font-size: 32px;
+    font-weight: 600;
+}

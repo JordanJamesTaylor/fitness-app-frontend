@@ -1,0 +1,89 @@
+#page-container{
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    min-width: 100vw;
+    min-height: 100vh;
+}
+
+#logo{
+    max-width: 15vw;
+}
+
+#content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 15vw;
+}
+
+#workout-img{
+    position: fixed;
+    z-index: -100;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+#btn-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.sessions-btns{
+    width: 600px;
+    height: 90px;
+    margin-top: 5px;
+    background-color: black;
+    color: white;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.custom-btn{
+    width: 600px;
+    height: 90px;
+    background-color: #D3F501;
+    color: black;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+#workout-form-container{
+    display: flex; 
+    flex-direction: column; 
+}
+
+#form-inputs{
+    display: flex;
+    flex-direction: column; 
+} 
+
+.f-inputs{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#form-btn-container{
+    display: flex;
+    flex-direction: row;
+}
+
+#form-sub-btn{
+    width: 290px;
+    height: 70px;
+    background-color: #D3F501;
+    color: black;
+}
+
+#form-disc-btn{
+    width: 290px;
+    height: 70px;
+    background-color: black;
+    color: white;
+}

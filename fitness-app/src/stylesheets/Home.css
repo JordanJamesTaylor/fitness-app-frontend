@@ -1,0 +1,37 @@
+#home-page-container{
+    position: fixed;
+    min-width: 100%;
+    min-height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#workout-video{
+    position: fixed;
+    z-index: -100;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+#btns-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30vh;
+}
+
+.nav-buttons{
+    width: 510px;
+    height: 80px;
+    margin-top: 40px;
+    border: 0px solid #101010;
+    border-radius: 0px 24px;
+    background-color: #D3F501;
+    color: black;
+    font-style: normal;
+    font-size: 32px;
+    font-weight: 600;
+}

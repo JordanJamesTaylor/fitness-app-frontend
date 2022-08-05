@@ -1,0 +1,36 @@
+#calendar-header{
+    display: flex;
+    flex-direction: column;
+}
+
+#inputOne{
+    margin-top: 5vh;
+    max-width: 13.5vw;
+    margin-left: 43vw;
+}
+
+#inputsTwo{
+    min-width: 13.5vw;
+    margin-left: 43vw;
+}
+
+#inputsThree{
+    min-width: 13.5vw;
+    margin-left: 43vw;
+}
+
+#add-button{
+    width: 295px;
+    margin-left: 43vw;
+    background-color: #D3F501;
+    color: black;
+    font-weight: 200;
+}
+
+#delete-button{
+    width: 295px;
+    margin-left: 43vw;
+    background-color: black;
+    color: white;
+    font-weight: 200;
+}
